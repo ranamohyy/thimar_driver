@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "27802740163",
+    "project_id": "driver-app-e8568",
+    "storage_bucket": "driver-app-e8568.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:27802740163:android:5ca0bb02729b81c1018976",
+        "android_client_info": {
+          "package_name": "com.example.driver"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHv9-_H_pbYfx9yV5nbijaF5boCM0sVHY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
