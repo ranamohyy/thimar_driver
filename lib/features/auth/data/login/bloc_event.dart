@@ -2,7 +2,7 @@
 
  class LogInEvents {}
  class LogInEvent extends LogInEvents {
-  final code='966';
+  final String code='966';
   final TextEditingController password = TextEditingController();
   final TextEditingController phone = TextEditingController();
   String?city;

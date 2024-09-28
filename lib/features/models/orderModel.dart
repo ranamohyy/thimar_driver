@@ -44,7 +44,7 @@ class OrderModel {
     phone: json["phone"],
     address: Address.fromJson(json["address"]),
     payType: json["pay_type"],
-    note: json["note"],
+    note: json["note"]??"",
     clientName: json["client_name"],
     clientImage: json["client_image"],
     city: json["city"],

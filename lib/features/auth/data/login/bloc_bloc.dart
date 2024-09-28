@@ -18,8 +18,8 @@ class LogInBloc extends Bloc<LogInEvents, LogInStates> {
     emit(LogInLoadingState());
    String token = await FirebaseMessaging.instance.getToken()??"test";
     final response = await DioHelper.send('login',data:{
-    'phone': "${event.code}${event.phone}",
-    'password' : event.password,
+    'phone': "${event.code}${event.phone.text}",
+    'password' : event.password.text,
     "user_type":"client",
     "device_token": token,
     "type":Platform.operatingSystem,

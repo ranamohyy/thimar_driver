@@ -126,6 +126,8 @@ class _LoginViewState extends State<LoginView> {
                       if (valid){
                       bloc.add(
                       event);
+                      print("======================${event.password}");
+                      print("======================${event.phone}");
                       }
 
 

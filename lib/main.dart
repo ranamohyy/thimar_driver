@@ -1,6 +1,7 @@
 import 'package:driver/core/cache_helper.dart';
 import 'package:driver/core/get_it.dart';
 import 'package:driver/features/auth/presentation/login/view.dart';
+import 'package:driver/features/main/presentation/home_nav/view.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
@@ -71,7 +72,7 @@ class MyApp extends StatelessWidget {
               home: child,
             ),
 
-        child:const  LoginView()
+        child:const  HomeNavView()
     );
   }
 }
