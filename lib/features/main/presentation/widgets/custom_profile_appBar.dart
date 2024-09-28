@@ -4,7 +4,6 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import '../../../helper_widgets/constans.dart';
 import '../../../../core/navigator_helper.dart';
-import '../../../helper_widgets/app_image.dart';
 
    class CustomAppBar extends StatelessWidget  implements PreferredSizeWidget {
    const CustomAppBar({super.key, required this.text,this.type});
