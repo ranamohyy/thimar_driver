@@ -15,8 +15,7 @@ class DioHelper{
     _dio.interceptors.add(CustomApiInterceptor());
 
   }
-  static Future<CustomResponse> put(
-      String path,{Map<String,dynamic>?data})async{
+  static Future<CustomResponse> put(String path,{Map<String,dynamic>?data})async{
     try{
       final response= await _dio.put(
         path,data:data,
@@ -95,6 +94,7 @@ class CustomApiInterceptor extends Interceptor {
   CustomApiInterceptor();
   @override
   void onError(DioException err, ErrorInterceptorHandler handler) {
+
     logger.e("------ Current Error Response (status code ${err.response?.statusCode}) -----");
     logger.e("${err.response?.data}");
     return super.onError(err, handler);
