@@ -58,15 +58,11 @@ class MyApp extends StatelessWidget {
 
                     )
                 ),
-
-
-                // primarySwatch:MaterialColor(int,),
                 colorScheme: ColorScheme.fromSeed(seedColor: kPrimaryColor,primary: kPrimaryColor ),
                 inputDecorationTheme: InputDecorationTheme(
 
                     alignLabelWithHint: true,
-                    border: OutlineInputBorder(
-                        borderRadius: BorderRadius.circular(22.r)),
+                    border: OutlineInputBorder(borderRadius: BorderRadius.circular(22.r)),
                     enabledBorder: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(22.r),
                         borderSide: const BorderSide(color: Color(0xffF3F3F3)))
