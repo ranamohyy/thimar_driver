@@ -1,8 +1,6 @@
 import 'dart:io';
-
 import 'package:driver/core/cache_helper.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../../../../core/dio_helper.dart';
