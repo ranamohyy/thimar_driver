@@ -1,6 +1,11 @@
 # Delivery App - Fast & Secure 🚚
 
 The Delivery App is designed to make it easy for users to have their orders delivered directly to their homes. With a focus on **security** and **reliability**, our licensed drivers ensure that your deliveries arrive safely and on time. You can also monitor and manage your delivery requests in real-time.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/74f79814-72c2-42fd-9629-e81fe8b3a792" alt="Image 1" width="200"/>
+</p>
+
 ## Create new Account
 <p align="center">
   <img src="https://github.com/user-attachments/assets/e1372500-fe8f-4335-a22c-1c963ad1e22b" alt="Image 1" width="200"/>
