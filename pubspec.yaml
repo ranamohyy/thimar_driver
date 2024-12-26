@@ -37,11 +37,8 @@ dependencies:
   dotted_border: ^2.0.0
   rate: ^0.0.2
   firebase_core: ^3.2.0
-  awesome_notifications: ^0.9.3+1
   firebase_messaging: ^15.1.0
   circular_countdown_timer: ^0.2.3
-  easy_stepper: ^0.8.5+1
-  enhance_stepper: ^1.0.1
 
 dev_dependencies:
   flutter_test:
